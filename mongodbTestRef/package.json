@@ -1,0 +1,17 @@
+{
+  "name": "mongodbtestref",
+  "version": "1.0.0",
+  "description": "mongoose db for the Api creation using  CRUD operation and dependency",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hardik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4"
+  }
+}

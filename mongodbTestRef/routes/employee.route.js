@@ -1,0 +1,14 @@
+var express     =   require('express');        // call express
+var router      =   express.Router();
+var control     =   require('../controller/employeeController');
+
+router.route('/')
+    .get(control.select)
+    .post(control.create)
+    .delete(control.remove)
+    .put(control.update);
+
+router.route("/fetch")
+    .post(control.selectById);
+
+module.exports=router;
